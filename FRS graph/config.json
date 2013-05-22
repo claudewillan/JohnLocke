@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Claude Willan",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Graph of Locke\u0027s correspondents",
+    "more": "This graph shows every person who either wrote to Locke or received a letter from him. The connections are binary, rather than weighted. This means that a single letter will create the same quality of connection as fifty. Colour coding accords redder shades to more connected nodes (like Robert Boyle) and white shades to less connected nodes. \"Leaves\" - nodes with no connections - are not shown here. \nI have added the tab \u0027FRS\u0027. This should allow you to see only those nodes who were members of the Royal Society in order to gauge the extent of their interconnectedness. Future versions of this graphs will have the capactiy to show more than one grouping. This will allow users to see the diversity of Locke\u0027s networks.",
+    "intro": "This is an interactive graph of Locke\u0027s correspondents. "
+  },
+  "legend": {
+    "edgeLabel": "Relationship between correspondents",
+    "colorLabel": "",
+    "nodeLabel": "Locke\u0027s Correspondents"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "FRS",
+    "hoverBehavior": "Dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
