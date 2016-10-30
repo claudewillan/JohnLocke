@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Willan"
+  },
+  "text": {
+    "more": "This graph shows the countries of birth of Locke\u0027s correspondents. It illustrates the extent to which Locke pulled together largely disparate communities.\n\nThis export is one of a small number of test exports among many; each correspondent has metadata encoded in upwards of forty categories; we provide these examples for illustrative effect. ",
+    "intro": "This graph shows the countries of birth of Locke\u0027s correspondents. It illustrates the extent to which Locke pulled together largely disparate communities.",
+    "title": "Locke\u0027s Correspondents"
+  },
+  "legend": {
+    "edgeLabel": "Relationship",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Correspondents"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Country of birth",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Country of birth"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
